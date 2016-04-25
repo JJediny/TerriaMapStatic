@@ -1,0 +1,161 @@
+{
+  "catalog": [
+    {
+      "items": [
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://107.21.245.18/geoserver/wms",
+          "dataCustodian": "[CDC National Disease Map Website](http://diseasemaps.usgs.gov/mapviewer/)",
+          "description": "[Public Domain CC0 - unless otherwise noted](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "CDC [National Disease Map]"
+        },
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://cida.usgs.gov/DSASweb/geoserver/wms",
+          "dataCustodian": "[USGS Coastal Change Harzard Portal](http://marine.usgs.gov/coastalchangehazardsportal)",
+          "description": "[Public Domain CC0 - unless otherwise noted](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "USGS [Coastal Change Harzard Portal]"
+        },
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://cida.usgs.gov/ngwmn/geoserver/wms",
+          "dataCustodian": "[USGS National Ground-Water Monitoring Network](http://cida.usgs.gov/ngwmn/index.jsp)",
+          "description": "[Public Domain CC0 - unless otherwise noted](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "USGS [National Ground-Water Monitoring Network]"
+        },
+        {
+          "type" : "wms-getCapabilities",
+          "name" : "DOC-FCC [Broadbandmap.gov]",
+          "url" : "http://www.broadbandmap.gov/geoserver/wms",
+          "dataCustodian": "[US Dept of Energy](http://energy.gov)",
+          "description": "[Licence](http://creativecommons.org/licenses/by/3.0/)"
+        },
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://opengeocluster.appgeo.com/geoserver/wms",
+          "dataCustodian": "[Western Governers Association CHAT](http://energy.gov)",
+          "description": "[Licence](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "WGA Critical Habitat Assessment Tool [CHAT]"
+        },
+        {
+          "type" : "wms-getCapabilities",
+          "name" : "DOE [National Renewable Energy Laboratory] Geoserver",
+          "url" : "https://mapservices.nrel.gov/wms",
+          "dataCustodian": "[US Dept of Energy](http://energy.gov)",
+          "description": "[Licence](http://creativecommons.org/licenses/by/3.0/)"
+        },
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://geonode.state.gov/geoserver/wms",
+          "dataCustodian": "[U.S. State Department - Humanitarian Information Unit](http://geonode.state.gov)",
+          "description": "[Public Domain CC0 - unless otherwise noted](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "State Department - Humanitarian Information Unit"
+        },
+        {
+          "type": "wms-getCapabilities",
+          "url": "http://geonode.wfp.org/geoserver/wms",
+          "dataCustodian": "[World Food Program](http://geonode.wfp.org)",
+          "description": "[License](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "World Food Program"
+        },
+        {
+          "name" : "DOE [Argonne National Lab - Solar]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://solarmapper.anl.gov/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "DOE [Bonneville Power Administration]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://gis.bpa.gov/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "DOE [Legacy Management]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://gems.lm.doe.gov/arcgis/rest/services/"
+        },
+        {
+          "name" : "DOE [National Renewable Energy Laboratory]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://gisatnrel.nrel.gov/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "DOI-BLM [GeoCommunicator]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://www.geocommunicator.gov/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "DOI [Indian Health Services]",
+          "type" : "esri-mapServer-group",
+          "url" : "https://gis.ihs.gov:6443/arcgis/rest/services/"
+        },
+        {
+          "name" : "EPA [MyEnvironment]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://epamap14.epa.gov/arcgis/rest/services/"
+        },
+        {
+          "name" : "EPA [National Hydrologic Dataset (NHD) Plus]",
+          "type" : "esri-mapServer-group",
+          "url" : "hhttp://54.163.241.137/arcgis/rest/services/"
+        },
+        {
+          "name" : "ESRI [General Layers 3]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://maps3.arcgisonline.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [General Layers 1]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://maps1.arcgisonline.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [ESRI Labs 2]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://esrilabs2.esri.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [Megacity]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://megacity.esri.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [Conservation2]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://conservation.arcgisonline.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [DOI]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://maps4.arcgisonline.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "ESRI [General Assets and Census Data]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://arcgis02.h-gac.com/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "GSA [Building Inventory]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://services1.arcgis.com/eBupDfPlEJK3mdAm/arcgis/rest/services/"
+        },
+        {
+          "name" : "NASA",
+          "type" : "esri-mapServer-group",
+          "url" : "http://ags.servirlabs.net/ArcGIS/rest/services/"
+        },
+        {
+          "name" : "The Nature Conservancy [LandScope]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://maps.tnc.org/ecadpubprodanon/rest/services/"
+        },
+        {
+          "name" : "USDA [Economic Research Service]",
+          "type" : "esri-mapServer-group",
+          "url" : "http://gis2.ers.usda.gov/ArcGIS/rest/services/"
+        }
+      ],
+      "type": "group",
+      "name": "Federal Servers - Not Working CORS Support"
+    }
+  ]
+}

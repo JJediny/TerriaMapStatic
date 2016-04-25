@@ -1,10 +1,12 @@
 {
     "initializationUrls" : [
         "terria",
+        "USG_Providers",
+        "USG_Providers_notWorking",
         "test"
     ],
     "parameters": {
-        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "bingMapsKey": "AknnzM4UsH9bgE37WZx4Gq5AU6tLT7nxLq0TxlDrlvWdYoh5SaevyYWGInNl1gDt",
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,
         "googleAnalyticsOptions": null,
@@ -12,17 +14,16 @@
             "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
             "url": ""
         },
-        "developerAttribution-CHANGETHIS": {
-            "text": "Your organisation",
-            "link": "http://www.example.com"
+        "developerAttribution": {
+            "text": "GSA Data.gov",
+            "link": "http://data.gov"
         },
-        "appName": "Terria Map",
-        "supportEmail-CHANGETHIS": "help@example.com",
+        "appName": "JKAN Map",
+        "supportEmail": "John.Jediny@gsa.gov",
         "brandBarElements": [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"https://github.com/JJediny/TerriaMapStatic\"><img src=\"images/Gov.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ]
     }
 }
-
