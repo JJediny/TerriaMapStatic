@@ -155,9 +155,7 @@
           "type" : "esri-mapServer-group",
           "url" : "http://gis2.ers.usda.gov/ArcGIS/rest/services/"
         }
-      ],
-      "type": "group",
-      "name": "Federal Servers - Not Working CORS Support"
+      ]
     }
   ]
 }

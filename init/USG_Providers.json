@@ -3,18 +3,8 @@
     {
       "name": "US Gov GIS Services",
       "type": "group",
+      "isOpen": true,
       "items": [
-        {
-            "name": "Australian National Data Sets CKAN TEST",
-            "type": "ckan",
-            "url": "http://ckan-nm.nicta.com.au",
-            "filterQuery": [ "q=res_format:WMS", "q=res_format:%22Esri%20REST%22" ],
-            "filterByWmsGetCapabilities": false,
-            "minimumMaxScaleDenominator": "1e10",
-            "wmsParameters": {"tiled" : true},
-            "blacklist": {
-            }
-        },
         {
           "groupBy": "organization",
           "minimumMaxScaleDenominator": 10000000000,
@@ -22,17 +12,7 @@
           "filterQuery": [ "q=res_format:WMS", "q=res_format:%22Esri%20REST%22" ],
           "url": "http://catalog.data.gov",
           "type": "ckan",
-          "name": "Data.gov API Test",
-          "includeCsv": false
-        },
-        {
-          "groupBy": "organization",
-          "minimumMaxScaleDenominator": 10000000000,
-          "filterByWmsGetCapabilities": false,
-          "filterQuery": [ "q=res_format:WMS", "q=res_format:%22Esri%20REST%22" ],
-          "url": "http://catalog.data.gov/api/3/",
-          "type": "ckan",
-          "name": "Data.gov API - API v3 Test",
+          "name": "Data.gov API v3 Test",
           "includeCsv": false
         },
         {
@@ -302,9 +282,7 @@
           "type" : "esri-mapServer-group",
           "url" : "http://apps.fs.fed.us/ArcX/rest/services/"
         }
-      ],
-      "type": "group",
-      "name": "Federal ArcGIS Servers"
+      ]
     }
   ]
 }
