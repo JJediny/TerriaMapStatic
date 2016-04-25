@@ -1,4 +1,21 @@
 {
+    "proxyDomains" : [
+       "egis.hud.gov",
+       "gis2.ers.usda.gov",
+       "broadbandmap.gov",
+       "solarmapper.anl.gov",
+       "gems.lm.doe.gov",
+       "mapservices.nrel.gov",
+       "services1.arcgis.com",
+       "gisatnrel.nrel.gov",
+       "www.geocommunicator.gov",
+       "webservices.nationalatlas.gov",
+       "conservation.arcgisonline.com",
+       "maps4.arcgisonline.com",
+       "maps1.arcgisonline.com",
+       "maps3.arcgisonline.com",
+       "esrilabs2.esri.com"
+    ],
     "initializationUrls" : [
         "terria",
         "USG_Providers",
@@ -11,7 +28,7 @@
         "googleAnalyticsOptions": null,
         "disclaimer": {
             "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            "url": ""
+            "url": "about.html"
         },
         "developerAttribution": {
             "text": "GSA Data.gov",
