@@ -15,7 +15,7 @@ Features missing in this serverless version:
 
 ## Updating this repository
 
-How this version is made:
+How this version was made:
 
 1. Check out https://github.com/TerriaJS/TerriaMap
 2. `npm install`
