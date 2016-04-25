@@ -1,6 +1,8 @@
 {
   "catalog": [
     {
+      "name": "US Gov GIS Services - Not Working",
+      "type": "group",
       "items": [
         {
           "type": "wms-getCapabilities",

@@ -2,8 +2,7 @@
     "initializationUrls" : [
         "terria",
         "USG_Providers",
-        "USG_Providers_notWorking",
-        "test"
+        "USG_Providers_notWorking"
     ],
     "parameters": {
         "bingMapsKey": "AknnzM4UsH9bgE37WZx4Gq5AU6tLT7nxLq0TxlDrlvWdYoh5SaevyYWGInNl1gDt",
