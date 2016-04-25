@@ -1,20 +1,10 @@
 {
-    "proxyDomains" : [
-       "criticalhabitat.fws.gov",
-       "gis1.usgs.gov",
-       "gis.fws.gov",
-       "geodata.epa.gov",
-       "ejscreen.epa.gov",
-       "edg.epa.gov",
-       "enviroatlas.epa.gov"
-    ],
     "initializationUrls" : [
         "terria",
         "USG_Providers",
         "USG_Providers_notWorking"
     ],
     "parameters": {
-        "proxyableDomainsUrl": "https://jsonp.afeld.me/?url=",
         "bingMapsKey": "AknnzM4UsH9bgE37WZx4Gq5AU6tLT7nxLq0TxlDrlvWdYoh5SaevyYWGInNl1gDt",
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,
