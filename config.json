@@ -1,20 +1,12 @@
 {
     "proxyDomains" : [
-       "egis.hud.gov",
-       "gis2.ers.usda.gov",
-       "broadbandmap.gov",
-       "solarmapper.anl.gov",
-       "gems.lm.doe.gov",
-       "mapservices.nrel.gov",
-       "services1.arcgis.com",
-       "gisatnrel.nrel.gov",
-       "www.geocommunicator.gov",
-       "webservices.nationalatlas.gov",
-       "conservation.arcgisonline.com",
-       "maps4.arcgisonline.com",
-       "maps1.arcgisonline.com",
-       "maps3.arcgisonline.com",
-       "esrilabs2.esri.com"
+       "criticalhabitat.fws.gov",
+       "gis1.usgs.gov",
+       "gis.fws.gov",
+       "geodata.epa.gov",
+       "ejscreen.epa.gov",
+       "edg.epa.gov",
+       "enviroatlas.epa.gov"
     ],
     "initializationUrls" : [
         "terria",
@@ -22,6 +14,7 @@
         "USG_Providers_notWorking"
     ],
     "parameters": {
+        "proxyableDomainsUrl": "https://jsonp.afeld.me/?url=",
         "bingMapsKey": "AknnzM4UsH9bgE37WZx4Gq5AU6tLT7nxLq0TxlDrlvWdYoh5SaevyYWGInNl1gDt",
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,

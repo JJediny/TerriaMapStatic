@@ -58,19 +58,14 @@
           "url" : "http://gis.ngdc.noaa.gov/arcgis/rest/services/"
         },
         {
-          "name" : "DOC-NOAA [Maritime Boundaries]",
-          "type" : "esri-mapServer-group",
-          "url" : "http://gis.ngdc.noaa.gov/arcgis/rest/services/"
-        },
-        {
           "name" : "DOC-NOAA [National Weather and River Gauges]",
           "type" : "esri-mapServer-group",
-          "url" : "http://gis.srh.noaa.gov/ArcGIS/rest/services/"
+          "url" : "http://idpgis.ncep.noaa.gov/arcgis/rest/services/"
         },
         {
           "name" : "DOC-NOAA [Multipurpose Marine Cadstre]",
           "type" : "esri-mapServer-group",
-          "url" : "http://egisws02.nos.noaa.gov/ArcGIS/rest/services/"
+          "url" : "http://maritimeboundaries.noaa.gov/arcgis/rest/services/"
         },
         {
           "name" : "DOD-USACE [Army Corps]",
@@ -188,9 +183,16 @@
           "url" : "http://wildfire.cr.usgs.gov/ArcGIS/rest/services/"
         },
         {
+          "type": "wms-getCapabilities",
+          "url": "http://cida.usgs.gov/ngwmn/geoserver/wms",
+          "dataCustodian": "[USGS National Ground-Water Monitoring Network](http://cida.usgs.gov/ngwmn/index.jsp)",
+          "description": "[Public Domain CC0 - unless otherwise noted](http://creativecommons.org/licenses/by/3.0/)",
+          "name": "USGS [National Ground-Water Monitoring Network]"
+        },
+        {
           "name" : "DOT [Research and Innovative Technology Administration]",
           "type" : "esri-mapServer-group",
-          "url" : "http://rithqnwws019.rita.dot.gov/ArcGIS/rest/services/"
+          "url" : "http://gis.rita.dot.gov/ArcGIS/rest/services/"
         },
         {
           "name" : "EPA [Geodata]",
@@ -265,7 +267,7 @@
         {
           "name" : "HUD [eGIS]",
           "type" : "esri-mapServer-group",
-          "url" : "http://egis.hud.gov/ArcGIS/rest/services/"
+          "url" : "http://services.arcgis.com/VTyQ9soqVukalItT/ArcGIS/rest/services/"
         },
         {
           "name" : "DOI-USGS [Federal Geographic Data Committee]",

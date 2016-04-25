@@ -1,0 +1,14 @@
+{
+    "allowProxyFor" : [
+        "criticalhabitat.fws.gov",
+        "gis.fws.gov",
+        "gis1.usgs.gov",
+        "geodata.epa.gov",
+        "ejscreen.epa.gov",
+        "edg.epa.gov",
+        "enviroatlas.epa.gov",
+        "githubusercontent.com"
+    ],
+    "initPaths": [
+    ]
+}
