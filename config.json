@@ -17,8 +17,9 @@
             "text": "GSA Data.gov",
             "link": "http://data.gov"
         },
-        "appName": "JKAN Map",
+        "appName": "Test Data.gov Map Previewer",
         "supportEmail": "John.Jediny@gsa.gov",
+        "feedbackUrl": "https://github.com/JJediny/TerriaMapStatic/issues",
         "brandBarElements": [
             "",
             "<a target=\"_blank\" href=\"https://github.com/JJediny/TerriaMapStatic\"><img src=\"images/Gov.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
