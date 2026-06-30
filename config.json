@@ -1,29 +1,32 @@
 {
     "initializationUrls" : [
-        "terria",
-        "USG_Providers",
-        "USG_Providers_notWorking"
+        "init/nm.json"
     ],
     "parameters": {
+        "appName": "NationalMap",
         "bingMapsKey": "AknnzM4UsH9bgE37WZx4Gq5AU6tLT7nxLq0TxlDrlvWdYoh5SaevyYWGInNl1gDt",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2NzYxZjdkNi1mZmUyLTQ3YjMtOTdiMC00N2Y0ZTg0NWM3Y2EiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA0ODY0fQ.yOdPU8vWbX_dVDbofVpjMMCP59ZA1MKZInIuHV59bRo",
         "googleUrlShortenerKey": null,
         "googleAnalyticsKey": null,
         "googleAnalyticsOptions": null,
         "disclaimer": {
-            "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            "url": "about.html"
+            "text": "Disclaimer: This is a test and is under continuous development - it should not be used for navigation or precise land planning or spatial analysis",
+            "url": "https://github.com/DistributedOpenUnifiedGovernmentNetwork"
         },
         "developerAttribution": {
             "text": "GSA Data.gov",
             "link": "http://data.gov"
         },
-        "appName": "Test Data.gov Map Previewer",
         "supportEmail": "John.Jediny@gsa.gov",
         "feedbackUrl": "https://github.com/JJediny/TerriaMapStatic/issues",
         "brandBarElements": [
-            "",
-            "<a target=\"_blank\" href=\"https://github.com/JJediny/TerriaMapStatic\"><img src=\"images/Gov.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-            ""
-        ]
+            "<a target=\"_blank\" href=\"https://github.com/DistributedOpenUnifiedGovernmentNetwork\"><img src=\"images/DougN.png\" height=\"60\" alt=\"United States Government\" /></a>"
+        ],
+        "displayOneBrand": 1,
+        "mobileDefaultViewerMode": "2d",
+        "regionMappingDefinitionsUrls": [
+            "build/TerriaJS/data/regionMapping.json"
+        ],
+        "useCesiumIonBingImagery": true
     }
 }
